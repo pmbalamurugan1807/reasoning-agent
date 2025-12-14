@@ -138,5 +138,6 @@ if run:
         with st.spinner("Reasoning..."):
             result = reasoning_agent(client, question)
 
-        st.subheader("📤 Output")
+        st.subheader("Output")
+
         st.json(result)
