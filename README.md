@@ -28,6 +28,9 @@ logs>",
 }
 }
 
+Prerequisites:
+pip install streamlit
+pip install openai
 
 The project is a streamlit program as seen below, input API key first to be able to proceed further
 
